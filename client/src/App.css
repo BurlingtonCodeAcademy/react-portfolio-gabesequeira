@@ -79,6 +79,10 @@ body{
     height: 99.5vh;
 }
 
+#showcase img{
+    margin-top: 70px;
+}
+
 .showcase-content{
     display: flex;
     flex-direction: column;
@@ -127,7 +131,7 @@ body{
     padding: 5rem 0;
 }
 
-#about h2, #services h2 {
+#about h2, #services h2, #work h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -198,13 +202,13 @@ body{
     margin: 2rem;
 }
 
-/* Section: Testimonials */
-#testimonials{
+/* Section: Projects */
+#projects{
     background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) no-repeat center center/cover;
     height: 100vh;
 }
 
-.testimonials-bg{
+.projects-bg{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -212,20 +216,23 @@ body{
     padding: 5rem 0;
 }
 
-#testimonials h2{
+#projects h2{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
     color: white;
-
 }
 
-#testimonials .boxes{
+#projects h1{
+    color: #fff;
+}
+
+#projects .boxes{
     display: flex;
     flex-direction: column;
 }
 
-#testimonials .box{
+#projects .box{
     background: rgba(54, 147, 255, 0.7);
     display: flex;
     padding: 2rem;
@@ -233,17 +240,35 @@ body{
     border-radius: 15px;
 }
 
-#testimonials .box:first-child, #testimonials .box:nth-child(2) {
+#projects .box:first-child, #projects .box:nth-child(2) {
     margin-bottom: 3rem;
 }
 
-#testimonials .box img {
-    border-radius: 50%;
-    margin-right: 2rem
+#projects .box img {
+    margin-right: 2rem;
+    width: 50%;
+    height: auto
 }
 
-#testimonials p{
+#projects a{
+    color: red;
+}
+
+#projects p{
     color: white
+}
+
+/* Section: Work */
+#work h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: column;
 }
 
 /* Section: Contact */
@@ -330,6 +355,11 @@ body{
     position: absolute;
     top: -7%;
     left: 45%;
+}
+
+/* Not Found Page */
+#not-found{
+    background: url('https://i.picsum.photos/id/425/959/635.jpg?hmac=4dke7AkdcKiiNgfteekpFs_MvDLE1xAdAmbxRZ52z4A')
 }
 
 /* Footer */

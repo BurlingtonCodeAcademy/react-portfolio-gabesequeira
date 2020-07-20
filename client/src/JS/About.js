@@ -11,16 +11,33 @@ class About extends React.Component {
 
     render() {
         return(
-            // Section: About 
-            <section id='about'>
-                <div className='container'>
-                    <h2 className='heading'>Get to Know <span className='heading'>Me</span></h2>
-                    <div className='about-content'>
-                        <h3>A Little Bit <span className='text-primary'>About Myself</span></h3>
-                        <p className='lead'>My name is Gabe I grew up in Montpelier Vermont.</p>
-                    </div>
-                </div>
-            </section>
+            <>
+       {/* Section: About */}
+       <section id="about">
+       <div className="container">
+         <h2 className="heading">
+           Gabe <span className="text-primary">Sequeira-Bacher</span>
+         </h2>
+         <div className="about-content">
+           <div className="about-text">
+             <h3>
+               A Little Bit More{" "}
+               <span className="text-primary">About Me</span>
+             </h3>
+             <p>
+               Gabe Sequeira-Bacher is a software developer who lives in Montpelier, VT. Gabe is currently enrolled in Burlington Code Academy's Software Development Bootcamp with the goal of becoming a Software Engineer.<br />
+
+               My Github is gabesequeira and <a href='https://github.com/gabesequeira?tab=repositories'>this is a link to my Github Repositories</a><br /> I am familiar with languages Javascript, HTML, and CSS, Frameworks NodeJS, Express, and React, as well as Database MongoDB and Version Control Git.
+             </p>
+             <p></p>
+           </div>
+           <div className="about-image">
+             <img src={require("./img/about.jpg")} alt="Picture of Myself" />
+           </div>
+         </div>
+       </div>
+     </section>
+     </>
         )
     }
 }
