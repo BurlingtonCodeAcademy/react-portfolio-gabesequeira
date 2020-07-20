@@ -14,7 +14,6 @@ class Home extends React.Component {
         <header id="showcase">
           <div className="showcase-content">
             <div className="container">
-              <img src={require('./img/home-img.jpg')} alt='My face' title="Gabe" />
               <h1>
                 Gabe <span className='text-primary'>Sequeira-Bacher</span>
                 <br />

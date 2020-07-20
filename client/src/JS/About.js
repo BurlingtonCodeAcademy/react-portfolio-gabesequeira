@@ -32,7 +32,7 @@ class About extends React.Component {
              <p></p>
            </div>
            <div className="about-image">
-             <img src={require("./img/about.jpg")} alt="Picture of Myself" />
+           <img src={require('./img/home-img.jpg')} alt='My face' title="Gabe" />
            </div>
          </div>
        </div>

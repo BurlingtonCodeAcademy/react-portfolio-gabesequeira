@@ -7,7 +7,7 @@ const app = express()
 app.use(express.static(path.resolve('./client/build')))
 
 app.get('*', (req, res) => {
-    res.sendFile('index.html')
+    res.sendFile('/index.html')
 })
 
 app.listen(port)
