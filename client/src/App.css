@@ -10,6 +10,7 @@ body{
     line-height: 1.4;
     color: #333;
     overflow-x: hidden;
+    background-color: pink;
 }
 
 /* Utility classes */
@@ -131,7 +132,7 @@ body{
     padding: 5rem 0;
 }
 
-#about h2, #services h2, #work h2 {
+#about h2, #work h2, #work h2 #hobbies h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -168,22 +169,23 @@ body{
 }
 
 /* Section: Services */
-#services {
+#work {
     padding: 5rem 0;
 
 }
 
-#services h3{
+#work h3{
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-#services .boxes{
-    display: flex
+#work .boxes{
+    display: flex;
+    flex-direction: column;
 }
 
-#services .box{
+#work .box{
     background: white;
     flex: 1;
     padding: 3rem;
@@ -193,7 +195,7 @@ body{
     font-size: 1.3rem
 }
 
-#services .box i{
+#work .box i{
     color: #fff;
     padding: 1rem;
     background: #3693ff;
@@ -204,7 +206,7 @@ body{
 
 /* Section: Projects */
 #projects{
-    background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) no-repeat center center/cover;
+    background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) repeat-y center center/cover;
     height: 100vh;
 }
 
@@ -356,6 +358,35 @@ body{
     top: -7%;
     left: 45%;
 }
+
+/* Section: Hobbies */
+#hobbies .hobbies-content{
+    display: flex;
+}
+
+#hobbies{
+    padding: 5rem 0;
+}
+
+#hobbies h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem
+}
+
+#hobbies h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hobbies .youtube-vid {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius: 40%;
+    margin-top: 40px;
+}
+
 
 /* Not Found Page */
 #not-found{

@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css';
 
 class Hobbies extends React.Component {
   constructor(props) {
@@ -10,14 +11,15 @@ class Hobbies extends React.Component {
   render() {
     return (
       <div id='content'>
-        <section id="testimonials">
-        <div className="testimonials-bg">
+        {/* Section: Hobbies */}
+        <section id="hobbies">
+        <div className="hobbies-bg">
           <div className="container">
-            <h2>
-              Sometimes I <span className="primary">practice the organ.</span>
+            <h2 className='heading'>
+              Sometimes I <span className="text-primary">practice the organ.</span>
             </h2>
-            <div className="boxes">
-              <div className="box">
+            <div className="hobbies-content">
+              <div className="youtube-vid">
                 <iframe
                   width="560"
                   height="315"
@@ -25,10 +27,10 @@ class Hobbies extends React.Component {
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
+                  title='voluntary-v-stanley'
                 ></iframe>
-                <p>I'm also an organist. Here are some YouTube clips of me practicing organ at Montpelier's Christ Church in July 2020. It's a labor of love.</p>
+                <p>I started playing the organ in January of 2020. Although I can play guitar, viola, and piano, at this point my favorite is organ. Here is a clip of myself practicing at the organ in Christ Church in Montpelier, VT. I hope to make this a career.</p>
                 <p></p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/lMRAgsVOFM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>

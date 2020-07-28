@@ -10,15 +10,15 @@ class Work extends React.Component {
   render() {
     return (
       <div id="work">
-                  {/* Section: Work History */}
-        <section id="services" className="bg-light">
+          {/* Section: Work History */}
+        <section id="work" className="bg-light">
           <div className="container">
             <h2>
               Here is some of my <span className="text-primary">Work History</span>
             </h2>
             <div className="boxes">
-        <img src={require('./img/Resume1.png')} />
-            <img src={require('./img/Resume2.png')} />
+        <img src={require('./img/resume.jpg')} alt='resume' />
+            <img src={require('./img/resume2.jpg')} alt='resume2' />
 
             </div>
           </div>

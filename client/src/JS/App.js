@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Home from './Home'
 import About from './About'
 import Hobbies from './Hobbies'
@@ -25,7 +25,7 @@ class App extends React.Component {
   }
   componentDidMount(){
     getFaviconEl();
-    let listItem = Math.floor(Math.random() * 6);
+    let listItem = Math.floor(Math.random() * 4);
     favicon.href=`favicon${listItem}.ico`
 }
 

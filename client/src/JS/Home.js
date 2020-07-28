@@ -17,7 +17,7 @@ class Home extends React.Component {
               <h1>
                 Gabe <span className='text-primary'>Sequeira-Bacher</span>
                 <br />
-                Software <span className="text-primary">Developer</span>
+                Junior <span className="text-primary">Web Developer</span>
               </h1>
               <Link to="/about" className="btn">
                 TELL ME MORE
