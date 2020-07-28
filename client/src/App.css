@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 body{
     font-family: Arial, sans-serif;
     line-height: 1.4;
-    color: #333;
+    color: #333333;
     overflow-x: hidden;
     background-color: pink;
 }
@@ -24,21 +29,21 @@ body{
 }
 
 .bg-light{
-    background: lightgrey;
-    color: darkgrey;
+    background: #D3D3D3;
+    color: #A9A9A9;
 }
 
 .bg-dark{
-    background: #333;
-    color: white;
+    background: #333333;
+    color: #ffffff;
 }
 
 /* Nav Bar */
 #navbar{
     display: flex;
     justify-content: space-between;
-    background: #333;
-    color: #fff;
+    background: #333333;
+    color: #ffffff;
     padding: 1.5rem 8rem;
     position: sticky;
     top: 0;
@@ -53,7 +58,7 @@ body{
 }
 
 #navbar h2 a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     display: flex;
     letter-spacing: 1.5px;
@@ -61,7 +66,7 @@ body{
 
 #navbar li a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     padding: 1rem;
     font-size: 1.3rem;
     margin: 0 0.5rem;
@@ -97,7 +102,7 @@ body{
     right: 0;
     height: 100vh;
     background: rgba(0,0,0,0.6);
-    color: white;
+    color: #ffffff;
 }
 
 .showcase-content h1{
@@ -113,7 +118,7 @@ body{
 
 .showcase-content .btn:hover{
     background: #3693ff;
-    color: #fff
+    color: #ffffff
 
 }
 
@@ -186,7 +191,7 @@ body{
 }
 
 #work .box{
-    background: white;
+    background: #ffffff;
     flex: 1;
     padding: 3rem;
     margin: 0 3rem;
@@ -196,7 +201,7 @@ body{
 }
 
 #work .box i{
-    color: #fff;
+    color: #ffffff;
     padding: 1rem;
     background: #3693ff;
     border-radius: 3%;
@@ -222,11 +227,11 @@ body{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
-    color: white;
+    color: #ffffff;
 }
 
 #projects h1{
-    color: #fff;
+    color: #ffffff;
 }
 
 #projects .boxes{
@@ -253,11 +258,11 @@ body{
 }
 
 #projects a{
-    color: red;
+    color: #FF0000;
 }
 
 #projects p{
-    color: white
+    color: #ffffff;
 }
 
 /* Section: Work */
@@ -265,7 +270,7 @@ body{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
-    color: white;
+    color: #ffffff;
 }
 
 #boxes{
@@ -292,7 +297,7 @@ body{
 }
 
 #contact .form-box{
-    background-color: white;
+    background-color: #ffffff;
     padding: 3rem;
     box-shadow: 2px 2px 5px #d1d1d1;
     border-radius: 10px;
@@ -316,7 +321,7 @@ body{
     margin-left: 10%;
     font-size: 1.3rem;
     padding: 1rem;
-    border: 0.5px solid #333;
+    border: 0.5px solid #333333;
     border-radius: 5px;
 }
 
@@ -333,7 +338,7 @@ body{
     border-radius: 5px;
     font-size: 1.5rem;
     background: #3693ff;
-    color: white;
+    color: #ffffff;
     margin-bottom: 2rem;
     cursor: pointer;
     transition: 0.3s;
@@ -350,7 +355,7 @@ body{
 #contact .mail-icon {
     font-size: 4rem;
     background: #3693ff;
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
     padding: 1.5rem 2rem;
     border-radius: 50%;
@@ -407,12 +412,12 @@ footer p{
 }
 
 footer a{
-    color: red;
+    color: #FF0000;
     height: 30px;
     justify-content: space-between;
     margin: .5rem;
 }
 
 footer .footer-icons{
-    color: purple;
+    color: #800080;
 }
