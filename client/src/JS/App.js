@@ -33,6 +33,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <Header />
+      <div id='wrapper'>
         <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
@@ -41,6 +42,7 @@ class App extends React.Component {
         <Route path='/work' component={Work} />
         <a href='https://www.google.com/'><i class='fab fa-facebook-f'></i></a>
       </Switch>
+      </div>
       <Footer />
     </div>
   );
