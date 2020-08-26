@@ -9,7 +9,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <>
+      <div id='content'>
               {/* Projects section */}
               <section id='projects'>
               <div className='projects-bg'>
@@ -62,7 +62,7 @@ class Projects extends React.Component {
                 </div>
               </div>
             </section>
-            </>
+            </div>
     );
   }
 }

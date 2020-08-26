@@ -436,6 +436,14 @@ footer a{
     margin: .5rem;
 }
 
+footer a:hover{
+    color: #800080;
+}
+
 footer .footer-icons{
     color: #800080;
+}
+
+.wrapper{
+    margin-bottom: -30px
 }

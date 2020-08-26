@@ -14,10 +14,11 @@ class Home extends React.Component {
         <header id="showcase">
           <div className="showcase-content">
             <div className="container">
+              <img src='./img/home-img.jpg' title="Gabe's headshot" alt='A headshot of Me' />
               <h1>
                 Gabe <span className='text-primary'>Sequeira-Bacher</span>
                 <br />
-                Junior <span className="text-primary">Web Developer</span>
+                Junior <span className="text-primary"> Web Developer</span>
               </h1>
               <Link to="/about" className="btn">
                 TELL ME MORE
