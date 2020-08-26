@@ -15,7 +15,11 @@ body{
     line-height: 1.4;
     color: #333333;
     overflow-x: hidden;
-    background-color: pink;
+    background-color: #ffc0cb;
+}
+
+h2, h3{
+    color: #ffffff;
 }
 
 /* Utility classes */
@@ -175,8 +179,8 @@ body{
 
 /* Section: Services */
 #work {
-    padding: 5rem 0;
-
+    padding: 1.5rem 0;
+    background: #ffc0cb;
 }
 
 #work h3{
@@ -211,7 +215,7 @@ body{
 
 /* Section: Projects */
 #projects{
-    background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) repeat-y center center/cover;
+    /* background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) repeat-y center center/cover; */
     height: 100vh;
 }
 
@@ -219,7 +223,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.6);
+    /* background: rgba(0,0,0,0.6); */
     padding: 5rem 0;
 }
 
@@ -367,6 +371,7 @@ body{
 /* Section: Hobbies */
 #hobbies .hobbies-content{
     display: flex;
+    flex-direction: column;
 }
 
 #hobbies{
@@ -392,6 +397,19 @@ body{
     margin-top: 40px;
 }
 
+.hobbies-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraph{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
 
 /* Not Found Page */
 #not-found{

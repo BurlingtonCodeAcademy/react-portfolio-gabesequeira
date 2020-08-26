@@ -29,8 +29,9 @@ class Hobbies extends React.Component {
                   allowfullscreen
                   title='voluntary-v-stanley'
                 ></iframe>
-                <p>I started playing the organ in January of 2020. Although I can play guitar, viola, and piano, at this point my favorite is organ. Here is a clip of myself practicing at the organ in Christ Church in Montpelier, VT. I hope to make this a career.</p>
-                <p></p>
+              </div>
+              <div id='paragraph'>
+              <p>One of my hobbies is music. I have been playing the organ since January of 2020. I began learning Web Development in March of that year. I have a B.A. in Music from Castleton University. Here is a clip of myself practicing the organ at Christ Church in Montpelier, VT, July 2020.</p>
               </div>
             </div>
           </div>
