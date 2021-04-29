@@ -16,7 +16,7 @@ class Hobbies extends React.Component {
         <div className="hobbies-bg">
           <div className="container">
             <h2 className='heading'>
-              Sometimes I <span className="text-primary">practice the organ.</span>
+              I am a <span className="text-primary">musician.</span>
             </h2>
             <div className="hobbies-content">
               <div className="youtube-vid">
