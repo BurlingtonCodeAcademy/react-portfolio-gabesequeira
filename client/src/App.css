@@ -1,0 +1,431 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: #333333;
+    overflow-x: hidden;
+    background-color: #FFC0CB;
+}
+
+/* Utility classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary{
+    color: #3693ff;
+}
+
+.bg-light{
+    background: #D3D3D3;
+    color: #A9A9A9;
+}
+
+.bg-dark{
+    background: #333333;
+    color: #ffffff;
+}
+
+/* Nav Bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #333333;
+    color: #ffffff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h2 a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    letter-spacing: 1.5px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+
+}
+
+#navbar li a:hover{
+    background-color: #3693ff;
+    transition: background-color 0.3s
+}
+
+/* Showcase Area */
+#showcase{
+    background: url(https://i.picsum.photos/id/366/4000/3000.jpg?hmac=zphhHOH9ofToN2jNHd8z-nc98NrBd8y2okWXEXetLDg) no-repeat center center/cover;
+    height: 99.5vh;
+}
+
+#showcase img{
+    margin-top: 70px;
+}
+
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+}
+
+.showcase-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.showcase-content .btn{
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    transition: color 0.3s
+}
+
+.showcase-content .btn:hover{
+    background: #3693ff;
+    color: #ffffff
+
+}
+
+.btn {
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Section: About */
+#about{
+    padding: 5rem 0;
+}
+
+#about h2, #work h2, #work h2 #hobbies h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+}
+
+#about .about-content{
+    display: flex;
+}
+
+#about .about-text,
+#about .about-image {
+    flex: 1;
+}
+
+#about .about-text {
+    text-align: center;
+}
+
+#about .about-image img {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius: 40%;
+
+}
+
+/* Section: Services */
+#work {
+    padding: 5rem 0;
+
+}
+
+#work h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#work .boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+#work .box{
+    background: #ffffff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.3rem
+}
+
+#work .box i{
+    color: #ffffff;
+    padding: 1rem;
+    background: #3693ff;
+    border-radius: 3%;
+    margin: 0 1rem;
+    margin: 2rem;
+}
+
+/* Section: Projects */
+#projects{
+    background: url(https://i.picsum.photos/id/308/1536/1024.jpg?hmac=sENdBVMjJ5k40eSlDyPh8CZKbXjOm1S73hukmgfyMKQ) repeat-y center center/cover;
+    height: 100vh;
+}
+
+.projects-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 5rem 0;
+}
+
+#projects h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+
+#projects h1{
+    color: #ffffff;
+}
+
+#projects .boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .box{
+    background: rgba(54, 147, 255, 0.7);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#projects .box:first-child, #projects .box:nth-child(2) {
+    margin-bottom: 3rem;
+}
+
+#projects .box img {
+    margin-right: 2rem;
+    width: 50%;
+    height: auto
+}
+
+#projects a{
+    color: #FF0000;
+}
+
+#projects p{
+    color: #ffffff;
+}
+
+/* Section: Work */
+#work h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section: Contact */
+#contact{
+    padding: 5rem 0;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+
+#contact h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+    margin-top: 5rem;
+}
+
+#contact .form-box{
+    background-color: #ffffff;
+    padding: 3rem;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    border-radius: 10px;
+}
+
+#contact .form-group {
+    margin-bottom: 2rem;
+}
+
+#contact .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: 0.5px solid #333333;
+    border-radius: 5px;
+}
+
+#contact .form-group textarea{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#contact .contact-btn{
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background: #3693ff;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact .contact-btn:hover {
+    background: #0378ff;
+}
+
+#contact .form-container{
+    position: relative;
+}
+
+#contact .mail-icon {
+    font-size: 4rem;
+    background: #3693ff;
+    color: #ffffff;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -7%;
+    left: 45%;
+}
+
+/* Section: Hobbies */
+#hobbies .hobbies-content{
+    display: flex;
+}
+
+#hobbies{
+    padding: 5rem 0;
+}
+
+#hobbies h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem
+}
+
+#hobbies h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hobbies .youtube-vid {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius: 40%;
+    margin-top: 40px;
+}
+
+
+/* Not Found Page */
+#not-found{
+    background: url('https://i.picsum.photos/id/425/959/635.jpg?hmac=4dke7AkdcKiiNgfteekpFs_MvDLE1xAdAmbxRZ52z4A')
+}
+
+/* Footer */
+footer{
+    display: flex;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    color: #FF0000;
+    height: 30px;
+    justify-content: space-between;
+    margin: .5rem;
+}
+
+footer a:hover{
+    color: #800080;
+}
+
+footer .footer-icons{
+    color: #800080;
+}
+
+.wrapper{
+    margin-bottom: -30px
+}
